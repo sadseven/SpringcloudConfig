@@ -1,13 +1,11 @@
-package com.arthur.springcloud_config;
+package com.arthur.springcloud.config;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
+
+public class ConfigServerApplicationTest 
     extends TestCase
 {
     /**
@@ -15,7 +13,7 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
+    public ConfigServerApplicationTest( String testName )
     {
         super( testName );
     }
@@ -25,7 +23,7 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite( ConfigServerApplicationTest.class );
     }
 
     /**
